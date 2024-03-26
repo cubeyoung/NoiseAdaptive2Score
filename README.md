@@ -1,7 +1,20 @@
-# Noise Distribution Adaptive Self-Supervised Image Denoising using Tweedie Distribution and Score Matching
+# Noise Distribution Adaptive Self-Supervised Image Denoising using Tweedie Distribution and Score Matching [CVPR2022]
 
 This repository is the official implementation of Noise Distribution Adaptive Self-Supervised Image Denoising using Tweedie Distribution and Score Matching.
-<img src="image/concept.png"  width="700" height="370">
+
+<img src="image/concept.png"  width="70%" height="70%" alt="Network"></img>
+
+## Abstract
+In this work, we provided a novel Bayesian framework for self-supervised image denoising without
+clean data, which surpasses SURE, PURE, Noise2X, etc. Our novel innovation came from the
+Tweedie’s formula, which provides explicit representation of denoise images through the score
+function. By combining with the score-function estimation using AR-DAE, our Noise2Score can be
+applied to image denoising problem from any exponential family noises. Furthermore, an identical
+neural network training can be universally used regardless of the noise models, which leads to the
+noise parameter estimation with minimal complexity. The links to SURE and existing Noise2X were
+also explained, which clearly showed why our method is a better generalization.
+
+<img src="image/intro.png"  width="700" height="370">
 
 ## Requirements
 
@@ -77,7 +90,5 @@ run:
 python test.py --model Gaussian  --dataset_mode test2  --noise_level 25  -dataroot_valid /test_images/ --name CBSD_ours_unet_gau_blind --model Gaussian --direction BtoA  --gpu_ids '0' --epoch best --results_dir /your_results/
 ```
 
-## Qualitative Results
-<img src="image/intro.png"  width="700" height="370">
 
 
