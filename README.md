@@ -1,6 +1,6 @@
 # Noise Distribution Adaptive Self-Supervised Image Denoising using Tweedie Distribution and Score Matching [CVPR2022]
 
-This repository is the official implementation of Noise Distribution Adaptive Self-Supervised Image Denoising using Tweedie Distribution and Score Matching.
+This repository is the official implementation of Noise Distribution Adaptive Self-Supervised Image Denoising using Tweedie Distribution and Score Matching. [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_Noise_Distribution_Adaptive_Self-Supervised_Image_Denoising_Using_Tweedie_Distribution_and_CVPR_2022_paper.pdf) 
 
 <img src="image/concept.png"  width="70%" height="70%" alt="Network"></img>
 
