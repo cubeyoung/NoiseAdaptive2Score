@@ -90,5 +90,17 @@ run:
 python test.py --model Gaussian  --dataset_mode test2  --noise_level 25  -dataroot_valid /test_images/ --name CBSD_ours_unet_gau_blind --model Gaussian --direction BtoA  --gpu_ids '0' --epoch best --results_dir /your_results/
 ```
 
+## Citation
+If you find our work interesting, please consider citing
+```
+@article{kim2021noise2score,
+  title={Noise2score: tweedie’s approach to self-supervised image denoising without clean images},
+  author={Kim, Kwanyoung and Ye, Jong Chul},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={864--874},
+  year={2021}
+}
+```
 
 
